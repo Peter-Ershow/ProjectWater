@@ -19,29 +19,6 @@ You can work with files using GitHub Desktop. Download and fetch changes regular
 
 ![GIF](https://media0.giphy.com/media/W8ndsoHqSCGBUzHb4a/giphy.gif?cid=7941fdc6fwc5973n3tte3j2p6l60a38n2ngzae8ly34xqko7&ep=v1_gifs_search&rid=giphy.gif&ct=g)
 
-### `Content`
-This folder contains everything unrelated to code, such as blueprints, assets, textures, inputs, sounds, and other resources. **If something breaks here, it's critical** – let the team know immediately (e.g., on Telegram). Keep an eye on this folder as you can’t easily verify its contents with code checks, and rebuilding from scratch could be challenging.
-
-### `Source`
-This folder holds all the code, main classes, etc. Currently (and hopefully permanently), it mirrors the `Common` folder in `Content`. Follow this structure as a best practice and avoid creating new directories or files in other locations without a team decision. Moving content locally is much easier.  
-
-- **Actors**: These are subclasses of interfaces that add functionalities to characters, like the ability to play music or consume food. See the UML Diagram:
-  ![UML](https://github.com/Peter-Ershow/ProjectWater/blob/main/UML.png)
-
-  *(Subject to change)*
-
-- **Interfaces**: Interface definitions.
-
-- **Characters**: A folder for the main character and other character types (e.g., NPCs). Contains AI logic and decision branches as well.
-
-- **Components**: Components that can be attached to actors or characters. Think of these as customizable functional modules that you can swap in and out.
-
-- **UI**: Minimal code for UI, including a notifier and inventory manager.
-
-- **Other Folders**: Configuration files are here, but they are mostly empty for now. Base configurations are set through blueprints.
-
----
-
 ## Step-by-Step Workflow with Perforce (Using P4V)
 
 ![GIF](https://media3.giphy.com/media/b6iVj3IM54Abm/giphy.gif?cid=7941fdc6xn9wek6k7644itnid0tu4lbvc3bkk74p3hh2rufa&ep=v1_gifs_search&rid=giphy.gif&ct=g)
