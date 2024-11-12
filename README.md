@@ -6,9 +6,6 @@ I use
 [![Used](https://skillicons.dev/icons?i=rider)](https://www.jetbrains.com/lp/rider-unreal/)
 [![Used](https://skillicons.dev/icons?i=discord)](https://discord.gg/VctsYqtd)
 
-## Assets 🕷️🕷️🕷️
-https://drive.google.com/drive/folders/1Q6l-vot1sTp-YEkimqEp29frsfUms3L6?usp=sharing
-
 ## Working with code
 You can work with files using GitHub Desktop. Download and fetch changes regularly, and always create pull requests to avoid conflicts in files. The process is: create a branch, push to that branch, and a pull request option will appear on the page. Create the pull request and then merge it.
 
