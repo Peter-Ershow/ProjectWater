@@ -26,7 +26,7 @@ This folder contains everything unrelated to code, such as blueprints, assets, t
 This folder holds all the code, main classes, etc. Currently (and hopefully permanently), it mirrors the `Common` folder in `Content`. Follow this structure as a best practice and avoid creating new directories or files in other locations without a team decision. Moving content locally is much easier.  
 
 - **Actors**: These are subclasses of interfaces that add functionalities to characters, like the ability to play music or consume food. See the UML Diagram:
-  ![UML](https://github.com/Peter-Ershow/ProjectWater/uml.png)
+  ![UML](https://github.com/Peter-Ershow/ProjectWater/UML.png)
 
   *(Subject to change)*
 
